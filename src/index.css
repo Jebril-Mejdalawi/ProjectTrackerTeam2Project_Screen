@@ -1,0 +1,60 @@
+@import '~antd/dist/antd.css';
+
+.myForm {
+    margin: 0.5em;
+}
+
+.myForm .ant-typography {
+    display: flex;
+    justify-content: center;
+}
+
+.myForm .ant-form-item {
+    margin-bottom: 16px;
+}
+
+.myForm .ant-form-item-label {
+    text-align: left;
+    padding: 0;
+}
+
+.myForm .ant-form-item-label > label::after {
+    content: ':';
+    position: relative;
+    top: -0.5px;
+    margin: 0 8px 0 2px;
+}
+
+.myForm .myFooter {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.myForm .ant-btn {
+    width: 100%;
+}
+
+.cs-message__avatar{
+
+    justify-content: flex-start;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
